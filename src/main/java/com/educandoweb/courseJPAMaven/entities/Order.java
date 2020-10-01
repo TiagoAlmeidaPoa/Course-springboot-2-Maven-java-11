@@ -13,7 +13,6 @@ import javax.persistence.Table;
 
 import com.educandoweb.courseJPAMaven.entities.enums.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 
 @Entity
 @Table(name = "tb_order")
